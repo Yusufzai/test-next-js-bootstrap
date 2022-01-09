@@ -1,0 +1,17 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$theme-colors: (
+    "light": #e0e6ed,
+    "dark": #141416,
+    "primary": #3861fb,
+    "secondary": #8338fb,
+    "success": #38fb90,
+    "info": #38c7fb,
+    "danger": #fb3838,
+    "warning": #fbcd38,
+
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
